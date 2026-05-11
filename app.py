@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/new")
 def new():
-    return "Endpoint number 2"            
+    return "Endpoint number 2: Testing CI pipeline"            
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
